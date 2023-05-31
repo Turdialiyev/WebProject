@@ -25,6 +25,15 @@ namespace BulkyWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category obj) 
         {
+            if(obj.DisplayOrder == 1)
+            {
+                ModelState.AddModelError("DisplayOrder", "Display Order is not equal 0");
+            }
+            if(!ModelState.IsValid)
+            {
+                return View();
+            }
+
             _appDbContext.Categories.Add(obj);
             _appDbContext.SaveChanges();
             return RedirectToAction("Index", "Category");
