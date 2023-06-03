@@ -1,0 +1,12 @@
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\bin\Debug\net7.0\Bulky.Models.deps.json
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\bin\Debug\net7.0\Bulky.Models.dll
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\bin\Debug\net7.0\Bulky.Models.pdb
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\obj\Debug\net7.0\Bulky.Models.csproj.AssemblyReference.cache
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\obj\Debug\net7.0\Bulky.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\obj\Debug\net7.0\Bulky.Models.AssemblyInfoInputs.cache
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\obj\Debug\net7.0\Bulky.Models.AssemblyInfo.cs
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\obj\Debug\net7.0\Bulky.Models.csproj.CoreCompileInputs.cache
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\obj\Debug\net7.0\Bulky.Models.dll
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\obj\Debug\net7.0\refint\Bulky.Models.dll
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\obj\Debug\net7.0\Bulky.Models.pdb
+C:\Users\gturdaliev\Desktop\OnlinePlatform\WebProject\Bulky\Bulku.Models\obj\Debug\net7.0\ref\Bulky.Models.dll
