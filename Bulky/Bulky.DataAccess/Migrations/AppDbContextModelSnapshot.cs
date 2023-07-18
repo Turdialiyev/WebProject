@@ -61,6 +61,111 @@ namespace Bulky.DataAccess.Migrations
                             Name = "History"
                         });
                 });
+
+            modelBuilder.Entity("Bulky.Models.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ISBN")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("ListPrice")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price100")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price50")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Author = "Hamid Olimjon",
+                            CategoryId = 1,
+                            Description = "Description",
+                            ISBN = "SN9099",
+                            ImageUrl = "",
+                            ListPrice = 90.0,
+                            Price = 789.0,
+                            Price100 = 100.0,
+                            Price50 = 47.0,
+                            Title = "Iphone 11 pro max"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Author = "Hamid Olimjon",
+                            CategoryId = 1,
+                            Description = "Description",
+                            ISBN = "SN9099",
+                            ImageUrl = "",
+                            ListPrice = 90.0,
+                            Price = 789.0,
+                            Price100 = 100.0,
+                            Price50 = 47.0,
+                            Title = "Iphone 11 pro max"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Author = "Hamid Olimjon",
+                            CategoryId = 2,
+                            Description = "Description",
+                            ISBN = "SN9099",
+                            ImageUrl = "",
+                            ListPrice = 90.0,
+                            Price = 789.0,
+                            Price100 = 100.0,
+                            Price50 = 47.0,
+                            Title = "Iphone 11 pro max"
+                        });
+                });
+
+            modelBuilder.Entity("Bulky.Models.Product", b =>
+                {
+                    b.HasOne("Bulky.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
 #pragma warning restore 612, 618
         }
     }
