@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\image\\product\\28dcc4ce-3087-46f1-8b86-53471a4db72a.jpg",
+      "PackagePath": "staticwebassets\\image\\product\\28dcc4ce-3087-46f1-8b86-53471a4db72a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

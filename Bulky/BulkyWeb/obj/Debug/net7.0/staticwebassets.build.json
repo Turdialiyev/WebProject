@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XVpc21gFTPI6X0bmDWbhn/I2u8CZbS+5GzIPjcmNyn0=",
+  "Hash": "DlIj3WaNZOZHiheYMnND4tHNjZ1OiC8Zf2JtS9M9X9I=",
   "Source": "BulkyWeb",
   "BasePath": "_content/BulkyWeb",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\image\\product\\28dcc4ce-3087-46f1-8b86-53471a4db72a.jpg",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "image/product/28dcc4ce-3087-46f1-8b86-53471a4db72a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\28dcc4ce-3087-46f1-8b86-53471a4db72a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\js\\product.js",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\js\\site.js",
