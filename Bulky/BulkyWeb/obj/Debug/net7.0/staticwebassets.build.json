@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DlIj3WaNZOZHiheYMnND4tHNjZ1OiC8Zf2JtS9M9X9I=",
+  "Hash": "IK7Az20dHGodzNpOfO/mR2g8JdEluR5Q0cQgz07Nr0s=",
   "Source": "BulkyWeb",
   "BasePath": "_content/BulkyWeb",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\product\\28dcc4ce-3087-46f1-8b86-53471a4db72a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\image\\product\\9c21e5c4-3d55-4f93-a44d-e2235f8ec209.jpg",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "image/product/9c21e5c4-3d55-4f93-a44d-e2235f8ec209.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\9c21e5c4-3d55-4f93-a44d-e2235f8ec209.jpg"
     },
     {
       "Identity": "C:\\Users\\gturdaliev\\Desktop\\OnlinePlatform\\WebProject\\Bulky\\BulkyWeb\\wwwroot\\js\\product.js",
